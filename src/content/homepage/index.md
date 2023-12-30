@@ -1,11 +1,11 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "PSY-Sophrologue à Abbeville et Feuquières-En-Vimeu"
+  content: "Découvrez Sylvain Vaillant, un sophrologue dîplomé pour votre bien-être."
   image: /images/banner-img.png
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Contactez-moi
+    link: "/contact"
     enable: true
 
 ##key features

@@ -1,12 +1,12 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Accueil",
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "À propos",
+      "url": "/a-propos"
     },
     {
       "name": "Blog",
