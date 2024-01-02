@@ -10,8 +10,8 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Les prestations de sophrologie"
+  description: Sylvain propose de nombreuses prestations dans le domaine de la sophrologie afin d'améliorer votre quotidien et votre bien-être.
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
