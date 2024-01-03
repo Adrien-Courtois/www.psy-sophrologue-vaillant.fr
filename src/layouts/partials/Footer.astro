@@ -6,7 +6,7 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, location, location2, email, phone, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -41,6 +41,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <h6>Location & Contact</h6>
         <ul>
           <li class="mb-2">{location}</li>
+          <li class="mb-2">{location2}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
               >{email}</a>

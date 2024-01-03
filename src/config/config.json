@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Psy-sophrologue - Sylvain Vaillant",
+    "title": "Sophrologue Abbeville - Cabinet Sophrologie & Relaxation",
     "base_url": "https://www.psy-sophrologue-vaillant.fr",
     "base_path": "/",
     "trailing_slash": false,
@@ -18,11 +18,11 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Venez vous relaxer avec une séance de sophrologie",
+    "description": "Prenez rendez-vous dès maintenant afin d'effectuer une séance de sophrologie à mon cabinet d'Abbeville du lundi au vendredi de 8h à 20h ou sur rendez-vous à Feuquière-En-Vimeu.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Prendre rendez-vous",
+      "link": "/contact"
     }
   },
 
@@ -34,9 +34,10 @@
 
   "params": {
     "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "email": "vaillant_sylvain@hotmail.fr",
+    "location": "21, route de Paris, 80100 Abbeville",
+    "location2": "34, rue Henry Barbusse, 80210 Feuquières en Vimeu",
+    "phone": "06 64 09 01 54",
     "contact_form_action": "#",
     "copyright": "Copyright © 2024 site créé par A-DEV"
   },

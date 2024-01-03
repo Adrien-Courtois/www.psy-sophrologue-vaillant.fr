@@ -14,13 +14,13 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Individuel",
-          "url": "/individuel"
+          "name": "Sophrologie",
+          "url": "/sophrologie"
         },
 
         {
-          "name": "En groupe",
-          "url": "/en-groupe"
+          "name": "Psychologie",
+          "url": "/psychologie"
         }
       ]
     },
@@ -32,20 +32,24 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Accueil",
+      "url": "/"
+    },
+    {
+      "name": "À propos",
+      "url": "/a-propos"
+    },
+    {
+      "name": "Sophrologie",
+      "url": "/sophrologie"
+    },
+    {
+      "name": "Psychologie",
+      "url": "/psychologie"
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }

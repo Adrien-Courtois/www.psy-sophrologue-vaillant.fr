@@ -10,8 +10,8 @@ banner:
 
 ##key features
 key_features:
-  title: "Les prestations de sophrologie"
-  description: Sylvain propose de nombreuses prestations dans le domaine de la sophrologie afin d'améliorer votre quotidien et votre bien-être.
+  title: "Les prestations de sophrologie et psychologie"
+  description: Je propose de nombreuses prestations dans le domaine de la sophrologie et de la psychologie afin d'améliorer votre quotidien et votre bien-être.
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Live Caption
@@ -47,7 +47,7 @@ key_features:
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
+    title: Qu'est-ce que la sophrologie ?
     description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
     tab_list:
         - title: Habit building essential choose habit
@@ -61,13 +61,9 @@ service:
           image: "/images/sells-by-country.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
+    - title: Et la psychologie ?
       desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
       image: "/images/collaboration.png"
-      list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
     - title: Accountability that works for you
       description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
       video:
@@ -80,7 +76,7 @@ service:
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
+  title: Mes expériences professionnelles
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: David Cameron
