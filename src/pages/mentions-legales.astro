@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import config from "@config/config.json";
+import PageHeader from "@layouts/components/PageHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+const content = await getEntryBySlug("mentions-legales", "index");
+const { header, title } = content.data;
+---
+
+<Base title={title} noindex>
+	<!-- page header -->
+	<PageHeader header={header} />
+	<div class="container pb-24">
+		<div class="page-hero-content mx-auto max-w-[1028px]">
+			<h3 class="mb-5 mt-8">Éditeur du site</h3>
+			<ul>
+				<li>Société : {config.rgpd.nom}</li>
+				<li>Adresse : {config.rgpd.adresse}</li>
+				<li>SIREN : {config.rgpd.siren}</li>
+				<li>RM : {config.rgpd.rm}</li>
+				<li>N° TVA : {config.rgpd.tva}</li>
+				<li>Gérant : {config.rgpd.gerant}</li>
+			</ul>
+
+			<h3 class="mb-5 mt-8">Contact de l'éditeur du site</h3>
+			<ul>
+				<li>Téléphone : {config.rgpd.tel}</li>
+				<li>Adresse mail : {config.rgpd.mail}</li>
+			</ul>
+
+			<h3 class="mb-5 mt-8">Responsable de rédaction</h3>
+			<ul>
+				<li>Nom : {config.rgpd.redac}</li>
+			</ul>
+
+			<h3 class="mb-5 mt-8">Hébergeur du site</h3>
+			<ul>
+				<li>Société : {config.hebergeur.nom}</li>
+				<li>Adresse : {config.hebergeur.adresse}</li>
+				<li>Téléphone : {config.hebergeur.tel}</li>
+				<li>Adresse mail : {config.hebergeur.mail}</li>
+			</ul>
+		</div>
+	</div>
+</Base>

@@ -1,0 +1,136 @@
+---
+import Base from "../layouts/Base.astro";
+import config from "@config/config.json";
+import PageHeader from "@layouts/components/PageHeader.astro";
+import { getEntryBySlug } from "astro:content";
+
+const content = await getEntryBySlug("cgu", "index");
+const { header, title } = content.data;
+---
+
+<Base title={title} noindex>
+  <!-- page header -->
+  <PageHeader header={header} />
+  <div class="container pb-24">
+    <div class="page-hero-content mx-auto max-w-[1028px]">
+      <h3 class="mb-5 mt-8">Objectif et qualité des contenus</h3>
+      <p>
+        Ce site a pour objectif de communiquer du contenu informatif sur les
+        produits et prestations proposés à la vente. {config.rgpd.nom} s’efforce
+        de fournir une information de qualité et vérifiée. Si vous constatez une
+        erreur typographique ou si une information vous semble inexacte, merci de
+        nous en informer en nous adressant un message via le formulaire de contact.
+      </p>
+      <p class="pt-4">
+        Le site est susceptible d’être complété ou modifié, à tout moment,
+        notamment en fonction des évolutions technologiques.
+      </p>
+
+      <h3 class="mb-5 mt-8">Accès & Utilisation du site</h3>
+      <p>
+        Tout abus dans l’accès ou l’utilisation du site ou tout autre usage que
+        celui auquel il est destiné, sont interdits. Il également strictement
+        interdit de mettre en péril l’intégrité, l’utilisation ou les conditions
+        de fonctionnement du serveur ou d’interférer ou de tenter d’interférer
+        avec le bon fonctionnement du site.
+      </p>
+      <p class="pt-4">
+        L’accès au site peut être suspendu pour des raisons de maintenance ou de
+        mise à jour, pour une cause due à la survenance d’un cas fortuit ou de
+        force majeure habituellement reconnu par la jurisprudence française.
+      </p>
+      <h3 class="mb-5 mt-8">Propriété intellectuelle</h3>
+      <p>
+        Le site internet ainsi que son contenu est protégé au titre des droits
+        de propriété intellectuelle au profit de la société {config.rgpd.nom}.
+        Il est interdit de copier, reproduire, extraire, diffuser, tout ou
+        partie, du site ou de ses éléments, sur quelque support que ce soit sans
+        l’accord écrit et préalable de la société {config.rgpd.nom}. Le
+        non-respect de ces droits peut engager les responsabilités civile et
+        pénale du contrevenant.
+      </p>
+      <h3 class="mb-5 mt-8">Données personnelles</h3>
+      <p>
+        La société {config.rgpd.nom} s’engage à ce que la collecte et le traitement
+        des données à caractère personnel, effectués à partir du site
+        {config.site.base_url}, soient conformes au RGPD et à la loi
+        Informatique et Libertés.
+      </p>
+      <p class="pt-4">
+        Le formulaire de contact limite la collecte des données au strict
+        nécessaire.
+      </p>
+      <p class="pt-4">
+        Les données personnelles ne sont en aucun cas communiquées à des
+        partenaires et il n’y a aucun transfert de ces données hors de l’UE.
+      </p>
+      <p class="pt-4">
+        Les données à caractère personnel recueillies sont transmises et
+        conservées selon des protocoles sécurisés (HTTPS) ; elles ne sont pas
+        conservées au-delà de la durée nécessaire à leur traitement.
+      </p>
+      <p class="pt-4">
+        Pour toute information ou l’exercice de vos droits d’accès, de
+        rectification, d’effacement et de portabilité concernant le traitement
+        des données à caractère personnel gérées par {config.rgpd.nom}, vous
+        pouvez nous contacter à l’adresse suivante : {config.form.mail}
+      </p>
+      <p class="pt-4">
+        Toute personne concernée par un traitement de données personnelles
+        réalisé par {config.rgpd.nom} peut s’y opposer dans la limite des dispositions
+        légales et réglementaires et peut introduire une réclamation auprès de la
+        CNIL.
+      </p>
+      <h3 class="mb-5 mt-8">Connexion et sécurité</h3>
+      <p>
+        L’accès et l’utilisation du site font appel au standard de sécurité SSL,
+        permettant d’assurer l’authentification, la confidentialité et
+        l’intégrité des données échangées de bout en bout, entre le poste de
+        l’internaute et notre site.
+      </p>
+      <p class="pt-4">
+        Les informations échangées à l’occasion d’une session sur les pages du
+        site sont sécurisées par un protocole de cryptographie SSL.
+      </p>
+      <h3 class="mb-5 mt-8">Les cookies</h3>
+      <p>
+        Un “cookie” est un fichier de taille limitée, généralement constitué de
+        lettres et de chiffres, envoyé par le serveur internet au fichier cookie
+        du navigateur situé sur le disque dur de votre ordinateur.
+      </p>
+      <p class="pt-4">
+        Le présent site utilise différents cookies ayant pour finalités
+        l’amélioration de la performance du site ainsi que la qualité de nos
+        services.
+      </p>
+      <p class="pt-4">
+        Conformément aux recommandations de la CNIL, les cookies utilisés sur le
+        présent site, qui sont strictement nécessaires à la fourniture des
+        services du site, à savoir : les cookies « identifiants de session »,
+        d’authentification, de mesure d’audience, sont exemptés de consentement
+        de la part des internautes.
+      </p>
+      <p class="pt-4">
+        Conformément à la législation, les données de fréquentation du site
+        ainsi que les cookies permettant la traçabilité des internautes et des
+        adresses IP ne sont pas conservées au-delà de 13 mois à compter de la
+        première visite.
+      </p>
+      <h3 class="mb-5 mt-8">Les liens hypertextes</h3>
+      <p>
+        Il est interdit de mettre en place un lien hypertexte vers le site
+        {config.site.base_url} sans l’accord écrit et préalable de la société {
+          config.rgpd.nom
+        }. En aucun cas, cette dernière ne peut être tenue pour responsable du
+        contenu des sites qui font l’objet d’un lien hypertexte à partir du
+        présent site.
+      </p>
+      <h3 class="mb-5 mt-8">Droit applicable & Juridiction compétente</h3>
+      <p>
+        Le présent site est régi par le droit français et relève de la
+        compétence exclusive des tribunaux du lieu du siège social de la société
+        {config.rgpd.nom}.
+      </p>
+    </div>
+  </div>
+</Base>

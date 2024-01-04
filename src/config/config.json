@@ -46,5 +46,28 @@
       "meta_image": "/images/og-image.png",
       "meta_description": "pinwheel astro",
       "noindex": true
+    },
+
+    "rgpd": {
+      "nom": "SOCIETE",
+      "adresse" : "ADRESSE",
+      "siren" : "SIREN",
+      "rm" : "RM",
+      "tva" : "TVA",
+      "gerant" : "GERANT",
+      "tel" : "0606060606",
+      "mail" : "test@gmail.com",
+      "redac" : "XXXX"
+    },
+
+    "hebergeur": {
+      "nom": "SOCIETE",
+      "adresse" : "ADRESSE",
+      "tel" : "0606060606",
+      "mail" : "test@gmail.com"
+    },
+
+    "form": {
+      "mail": "test@gmail.com"
     }
   }
