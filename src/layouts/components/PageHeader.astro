@@ -1,0 +1,39 @@
+---
+import { humanize, markdownify } from "@lib/utils/textConverter";
+const { header } = Astro.props || {};
+---
+<section class="page-hero py-16">
+  <div class="container">
+    <div class="page-hero-content mx-auto max-w-[768px] text-center">
+      <div class="text-center">
+        <h1
+          class="mb-5 mt-8"
+          set:html={markdownify(
+            header?.title ? header?.title : header?.title
+          )}
+        />
+        <p set:html={markdownify(header.content)} />
+
+        {
+          header.buttons && (
+            <div class="mt-11 justify-center sm:flex">
+              {header.buttons.map(
+                (button: any) =>
+                  button?.enable && (
+                    <a
+                      class={`btn m-3 block sm:inline-block ${
+                        button?.outline ? "btn-outline-primary" : "btn-primary"
+                      } `}
+                      href={button?.link}
+                    >
+                      {button?.label}
+                    </a>
+                  )
+              )}
+            </div>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</section>

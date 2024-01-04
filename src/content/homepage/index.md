@@ -1,4 +1,6 @@
 ---
+title: "Psychothérapeute Abbeville - S. Vaillant Psy & Sophrologue"
+
 banner:
   title: "Titre"
   content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
@@ -7,4 +9,4 @@ banner:
   button:
     label: Contact
     link: "/contact"
-    enable: false
+    enable: true

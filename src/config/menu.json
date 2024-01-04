@@ -5,20 +5,8 @@
         "url": "/"
       },
       {
-        "name": "About",
-        "url": "/about"
-      },
-      {
-        "name": "Blog",
-        "url": "/blog"
-      },
-      {
-        "name": "Features",
-        "url": "/features"
-      },
-      {
-        "name": "How It Works",
-        "url": "/how-it-works"
+        "name": "À propos",
+        "url": "/a-propos"
       },
       {
         "name": "Pages",

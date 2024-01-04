@@ -5,10 +5,10 @@ import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
 const content = await getEntryBySlug("homepage", "index");
-const { banner } = content.data;
+const { banner, title } = content.data;
 ---
 
-<Base title="Psychothérapeute Abbeville - S. Vaillant Psy & Sophrologue">
+<Base title={title}>
 	<!-- banner -->
 	<Banner banner={banner} />
 
