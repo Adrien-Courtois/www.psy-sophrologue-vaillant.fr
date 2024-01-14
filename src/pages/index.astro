@@ -4,9 +4,10 @@ import Banner from "@layouts/components/Banner.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import TicTac from "@layouts/components/TicTac.astro";
 import { getEntryBySlug } from "astro:content";
+import OurMembers from "@layouts/components/OurMembers.astro";
 
 const content = await getEntryBySlug("homepage", "index");
-const { banner, title, tictac } = content.data;
+const { banner, title, tictac, members } = content.data;
 ---
 
 <Base title={title}>
@@ -15,5 +16,6 @@ const { banner, title, tictac } = content.data;
 
 	<TicTac tictac_content={tictac} />
 	<!-- call to action -->
+	<OurMembers members={members} />
 	<Cta />
 </Base>

@@ -10,7 +10,6 @@ banner:
     label: Contact
     link: "/contact"
     enable: true
-
   
 tictac:
   - title: Accept payments any country in this whole universe
@@ -29,3 +28,12 @@ tictac:
       label: Know About Us
       link: "#"
       enable: true
+
+members:
+  title: This is who we are
+  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  member_list:
+    - name: Eleanor Pena
+      field: Co-founder & COO
+      image: "/images/users/user-1.png"
+
