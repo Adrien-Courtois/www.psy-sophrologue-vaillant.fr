@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cgu
+Disallow: /mentions-legales
+
+Sitemap: /sitemap-0.xml
