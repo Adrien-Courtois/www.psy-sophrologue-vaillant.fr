@@ -4,17 +4,19 @@ import Banner from "@layouts/components/Banner.astro";
 import Cta from "@layouts/partials/Cta.astro";
 import TicTac from "@layouts/components/TicTac.astro";
 import Paragraph from "@layouts/components/Paragraph.astro";
+import Features from "@layouts/components/Features.astro";
 import { getEntryBySlug } from "astro:content";
 import OurMembers from "@layouts/components/OurMembers.astro";
 
 const content = await getEntryBySlug("homepage", "index");
-const { banner, title, tictac, members, paragraph_sylvain } = content.data;
+const { banner, title, tictac, members, paragraph_sylvain, features } = content.data;
 ---
 
 <Base title={title}>
 	<!-- banner -->
 	<Banner banner={banner} />
 
+	<Features features={features} />
 	<TicTac tictac_content={tictac} />
 	<!-- call to action -->
 	<OurMembers members={members} />

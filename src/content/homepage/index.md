@@ -33,9 +33,20 @@ members:
   title: This is who we are
   description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
+    - name: Sylvain Vaillant
+      field: Psy-Sophrologue
       image: "/images/users/user-1.png"
+  
+features:
+  title: Les prestations de sophrologie
+  content:
+    - title: test 1
+      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+      link: /prestations
+    - title: test 1
+      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+    - title: test 1
+      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
 
 paragraph_sylvain: 
   - Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.
