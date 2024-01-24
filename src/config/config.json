@@ -1,7 +1,7 @@
 {
     "site": {
       "title": "Psychothérapeute Abbeville - S. Vaillant Psy & Sophrologue",
-      "base_url": "https://www.psy-sophrologue-vaillant.fr/",
+      "base_url": "https://meek-starship-bf8f04.netlify.app/",
       "base_path": "/",
       "trailing_slash": false,
       "favicon": "/images/favicon.png",

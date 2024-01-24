@@ -14,35 +14,8 @@
         "hasChildren": true,
         "children": [
           {
-            "name": "Career",
-            "url": "/career"
-          },
-  
-          {
-            "name": "Integrations",
-            "url": "/integrations"
-          },
-  
-          {
-            "name": "Pricing",
-            "url": "/pricing"
-          },
-          {
-            "name": "Sign In",
-            "url": "/signin"
-          },
-  
-          {
-            "name": "Elements",
-            "url": "/elements"
-          },
-          {
-            "name": "Changelog",
-            "url": "/changelog"
-          },
-          {
-            "name": "Terms And Conditions",
-            "url": "/terms-and-conditions"
+            "name": "À propos",
+            "url": "/a-propos"
           }
         ]
       },
@@ -54,20 +27,12 @@
   
     "footer": [
       {
-        "name": "About",
-        "url": "/about"
+        "name": "À propos",
+        "url": "/a-propos"
       },
       {
         "name": "Contact",
         "url": "/contact"
-      },
-      {
-        "name": "Elements",
-        "url": "/elements"
-      },
-      {
-        "name": "Changelog",
-        "url": "/changelog"
       }
     ]
   }

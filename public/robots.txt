@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /cgu
 Disallow: /mentions-legales
 
-Sitemap: /sitemap-0.xml
+Sitemap: https://meek-starship-bf8f04.netlify.app/sitemap-0.xml
