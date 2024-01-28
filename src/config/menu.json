@@ -6,22 +6,30 @@
       },
       {
         "name": "À propos",
-        "url": "/a-propos"
+        "url": "#"
       },
       {
-        "name": "Pages",
+        "name": "Prestations",
         "url": "",
         "hasChildren": true,
         "children": [
           {
-            "name": "À propos",
-            "url": "/a-propos"
+            "name": "Sophrologie",
+            "url": "#"
+          },
+          {
+            "name": "Psychologie",
+            "url": "#"
           }
         ]
       },
       {
+        "name": "Tarifs",
+        "url": "#"
+      },
+      {
         "name": "Contact",
-        "url": "/contact"
+        "url": "#"
       }
     ],
   
