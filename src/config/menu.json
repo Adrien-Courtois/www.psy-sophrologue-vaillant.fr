@@ -29,14 +29,14 @@
       },
       {
         "name": "Contact",
-        "url": "#"
+        "url": "contact"
       }
     ],
 
     "cta": 
       {
         "name": "Contact",
-        "url": ""
+        "url": "#"
       },
   
     "footer": [
