@@ -32,6 +32,12 @@
         "url": "#"
       }
     ],
+
+    "cta": 
+      {
+        "name": "Contact",
+        "url": ""
+      },
   
     "footer": [
       {
