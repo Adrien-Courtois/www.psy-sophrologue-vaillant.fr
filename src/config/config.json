@@ -4,10 +4,10 @@
       "base_url": "https://meek-starship-bf8f04.netlify.app/",
       "base_path": "/",
       "trailing_slash": false,
-      "favicon": "/images/favicon.png",
-      "logo": "/images/base/logo.png",
-      "logo_width": "147",
-      "logo_height": "31",
+      "favicon": "/images/favicon.svg",
+      "logo": "/images/logo.png",
+      "logo_width": "226.21",
+      "logo_height": "35",
       "logo_text": "psy-sophrologue-vaillant"
     },
   

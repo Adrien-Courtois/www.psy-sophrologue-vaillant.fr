@@ -55,4 +55,11 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 ## To-do
 - [x] schema.org
-- [ ] Pourquoi moi ? : https://flowbite.com/blocks/marketing/content/#social-proof-content
+- [x] Pourquoi moi ? : https://flowbite.com/blocks/marketing/content/#social-proof-content
+- [ ] Régler les soucis SEO (balise hn etc...)
+- [x] Créer un logo
+- [ ] Mettre du contenu
+- [ ] Trouver des images
+- [ ] Vérifier les meta description (1 par page, vérifier le template base)
+- [ ] Modifier le footer
+- [ ] Présentation de la page d'accueil
