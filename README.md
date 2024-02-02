@@ -56,7 +56,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ## To-do
 - [x] schema.org
 - [x] Pourquoi moi ? : https://flowbite.com/blocks/marketing/content/#social-proof-content
-- [ ] Régler les soucis SEO (balise hn etc...)
+- [x] Régler les soucis SEO (balise hn etc...)
 - [x] Créer un logo
 - [ ] Mettre du contenu
 - [ ] Trouver des images

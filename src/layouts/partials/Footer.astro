@@ -6,7 +6,37 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, location, footer_description } = config.params;
+const {
+  facebook,
+  twitter,
+  instagram,
+  youtube,
+  linkedin,
+  github,
+  gitlab,
+  medium,
+  codepen,
+  bitbucket,
+  dribbble,
+  behance,
+  pinterest,
+  soundcloud,
+  tumblr,
+  reddit,
+  vk,
+  whatsapp,
+  snapchat,
+  vimeo,
+  tiktok,
+  foursquare,
+  rss,
+  email,
+  phone,
+  address,
+  skype,
+  website,
+} = social;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -18,13 +48,15 @@ const { copyright, location, email, phone, footer_description } = config.params;
           {footer_description}
         </p>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
-
-        <Social source={social} className="social-icons mt-4 lg:mt-6" />
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Quick Links</h6>
+      {
+        (facebook || twitter || instagram || youtube || linkedin || github || gitlab || medium || codepen || bitbucket || dribbble || behance || pinterest || soundcloud || tumblr || reddit || vk || whatsapp || snapchat || vimeo || tiktok || foursquare || skype || website || rss || email || phone || address ) && (
+        <div class="col-12 mt-12 md:col-6 lg:col-3 lg:pl-10">
+          <p class="text-dark font-semibold font-primary mb-4 lg:mb-8">Me suivre</p>
+          <Social source={social} className="social-icons mt-4 lg:mt-6" />
+        </div>
+      )}
+      <div class="col-12 mt-12 md:col-6 lg:col-3 lg:pl-10">
+        <p class="text-dark font-semibold font-primary mb-4 lg:mb-8">Liens</p>
         <ul>
           {
             footer.map((item, i) => (
@@ -37,9 +69,9 @@ const { copyright, location, email, phone, footer_description } = config.params;
           }
         </ul>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Location & Contact</h6>
-        <ul>
+      <div class="col-12 mt-12 md:col-6 lg:col-3 lg:pl-10">
+        <p class="text-dark font-semibold font-primary mb-4 lg:mb-8">Contact</p>
+        <ul> 
           <li class="mb-2">{location}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
