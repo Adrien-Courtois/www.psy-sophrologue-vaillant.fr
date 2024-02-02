@@ -388,19 +388,23 @@ select:invalid {
   }
 }
 //footer
-// .footer {
+.footer {
 //   // h6 {
 //   //   @apply mb-4 font-primary font-semibold lg:mb-8;
 //   // }
 
-//   p {
-//     @apply text-sm;
-//   }
+  p {
+    @apply text-sm;
+  }
 
-//   li > a {
-//     @apply text-sm hover:text-primary hover:underline;
-//   }
-// }
+  li > a {
+    @apply text-sm hover:text-primary hover:underline;
+  }
+
+  .footer-copyright a {
+    @apply no-underline text-text
+  }
+}
 
 //gradient-number
 .gradient-number {

@@ -61,5 +61,5 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [ ] Mettre du contenu
 - [ ] Trouver des images
 - [ ] Vérifier les meta description (1 par page, vérifier le template base)
-- [ ] Modifier le footer
+- [x] Modifier le footer
 - [ ] Présentation de la page d'accueil
