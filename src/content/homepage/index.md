@@ -3,8 +3,8 @@ title: "Psychothérapeute Abbeville - S. Vaillant Psy & Sophrologue"
 
 banner:
   title: "Sylvain Vaillant Psy & Sophrologue à Abbeville"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
-  image: /images/banner/banner-img.png
+  content: "Trouvez votre bien-être avec Sylvain Vaillant sophrologue à Abbeville. Découvrez des séances personnalisées pour la gestion du stress, la relaxation et l'équilibre mental. Contactez-moi pour une harmonie intérieure."
+  image: /images/banner/banner-img.svg
   enable: false
   button:
     label: Contact
@@ -13,15 +13,15 @@ banner:
   
 tictac:
   - title: Explorez les Bienfaits de la Sophrologie
-    description: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-    image: "/images/collaboration.png"
-    list:
-      - Supporting more than 119 country world
-      - Open transaction with more than currencies
-      - Customer Service with 79 languages
-  - title: Qu'est-ce que la psychologie
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
-    image: "/images/collaboration.png"
+    description: "Bien plus qu'une technique de relaxation, la sophrologie consiste à acquérir une maîtrise de soi pour mobiliser nos ressources internes afin d'optimiser nos capacités : la confiance, la maîtrise et l'estime de soi. En séance individuelle ou collective, vous apprendrez à canaliser vos émotions, modifier vos pensées ou vos comportements invalidants afin de vous aider dans vos difficultés."
+    image: "/images/tictac/sophrologie.svg"
+    width: 400
+    height: 400
+  - title: Pourquoi la psychologie ?
+    description: Vous traversez un moment difficile ou une crise ? Vous vous sentez perdu ? Vous avez envie de reprendre le contrôle de vos pensées, de vos émotions, ou au contraire, de lâcher prise ? Si vous êtes arrivé(e) sur ce site, peut-être est-ce parce que vous avez besoin de parler et d'être écouté
+    image: "/images/tictac/psychologie.svg"
+    width: 400
+    height: 400
     button:
       label: Know About Us
       link: "#"
@@ -39,14 +39,17 @@ features:
   title: Découvrez mes prestations en psy-sophrologie
   content:
     - title: Gestion du stress
-      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
       link: /prestations
     - title: Séance collective
-      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      link: /prestations
     - title: Pour les enfants
-      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      link: /prestations
     - title: En entreprise
-      text: Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      link: /prestations
 
 paragraph_sylvain: 
   - Je dispose un parcours riche en expériences que ce soit dans le secteur public, privé ou associatif. J'ai ainsi acquis de l'expérience avec les enfants/adolescents (psychologue scolaire) dans les RASED (Réseau d'Aides Spécialisées aux Enfants en Difficultés) du secteur Domart en Ponthieu et Flixecourt ainsi qu'en ITEP (Institut Thérapeutique, Educatif et Pédagogique) à Valloires-Argoules.

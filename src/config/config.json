@@ -5,7 +5,7 @@
       "base_path": "/",
       "trailing_slash": false,
       "favicon": "/images/favicon.svg",
-      "logo": "/images/logo.png",
+      "logo": "/images/logo.svg",
       "logo_width": "226.21",
       "logo_height": "35",
       "logo_text": "psy-sophrologue-vaillant"
@@ -18,11 +18,11 @@
     },
   
     "call_to_action": {
-      "title": "Helping teams in the world with focus",
-      "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+      "title": "Réservez votre séance",
+      "description": "Contactez moi afin de prendre rendez-vous pour une séance de sophrologie ou de psychologie, en individuel comme en groupe pour les entreprises.",
       "button": {
-        "label": "Download The Theme",
-        "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+        "label": "Contactez moi",
+        "link": "/contact"
       }
     },
   
@@ -33,8 +33,11 @@
     },
   
     "params": {
-      "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-      "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+      "footer_description": "Psy-sophrologue, diplômé en psychopathologie, psychologie clinique et formé à la Sophrologie, je vous reçois en consultation individuelle ou collective dans mon cabinet situé au 21, route de Paris à Abbeville ou au Centre de Soin de Feuquières-en-Vimeu.",
+      "location": [
+        "21, route de Paris, 80100 Abbeville",
+        "34 rue Henry Barbusse, 80210 Feuquières en Vimeu"
+      ],
       "contact_form_action": "#",
       "copyright": "Copyright © 2024 site créé par A-DEV | [mentions légales](/mentions-legales) | [cgu](/cgu)"
     },
