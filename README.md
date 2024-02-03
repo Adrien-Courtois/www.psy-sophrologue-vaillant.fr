@@ -57,10 +57,10 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [x] schema.org
 - [x] Pourquoi moi ? : https://flowbite.com/blocks/marketing/content/#social-proof-content
 - [x] Régler les soucis SEO (balise hn etc...)
-- [ ] Optimiser les images pour SEO et performance
+- [x] Optimiser les images pour SEO et performance
 - [x] Créer un logo
-- [ ] Mettre du contenu
-- [ ] Trouver des images
-- [ ] Vérifier les meta description (1 par page, vérifier le template base)
+- [x] Mettre du contenu
+- [x] Trouver des images
+- [x] Vérifier les meta description (1 par page, vérifier le template base)
 - [x] Modifier le footer
 - [ ] Présentation de la page d'accueil
