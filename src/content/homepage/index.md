@@ -5,7 +5,7 @@ banner:
   title: "Sylvain Vaillant Psy & Sophrologue à Abbeville"
   content: "Trouvez votre bien-être avec Sylvain Vaillant sophrologue à Abbeville. Découvrez des séances personnalisées pour la gestion du stress, la relaxation et l'équilibre mental. Contactez-moi pour une harmonie intérieure."
   image: 
-    src: /images/banner/banner-img-1.svg
+    src: /images/banner/banner-img-1.webp
     width: 350
     height: 350
   enable: false
