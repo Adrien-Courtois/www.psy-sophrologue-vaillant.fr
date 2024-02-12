@@ -12,18 +12,22 @@ banner:
     enable: true
   
 tictac:
+  - title: Pourquoi la psychologie ?
+    description: Vous traversez un moment difficile comme un deuil ou un passage compliqué dans votre couple ? Vous vous sentez perdu ? Vous avez envie de reprendre le contrôle de vos pensées, de vos émotions, ou au contraire, de lâcher prise ? Stress, angoise, anxiété, trouble du sommeil, deuil, phobie sont des pathologies que vous ressentez ? Si vous êtes arrivé(e) sur ce site, peut-être est-ce parce que vous avez besoin de parler et d'être écouté
+    image: "/images/tictac/psychologie.svg"
+    width: 400
+    height: 400
+    button:
+      label: En voir plus
+      link: "#"
+      enable: true
   - title: Explorez les Bienfaits de la Sophrologie
     description: "Bien plus qu'une technique de relaxation, la sophrologie consiste à acquérir une maîtrise de soi pour mobiliser nos ressources internes afin d'optimiser nos capacités : la confiance, la maîtrise et l'estime de soi. En séance individuelle ou collective, vous apprendrez à canaliser vos émotions, modifier vos pensées ou vos comportements invalidants afin de vous aider dans vos difficultés."
     image: "/images/tictac/sophrologie.svg"
     width: 400
     height: 400
-  - title: Pourquoi la psychologie ?
-    description: Vous traversez un moment difficile ou une crise ? Vous vous sentez perdu ? Vous avez envie de reprendre le contrôle de vos pensées, de vos émotions, ou au contraire, de lâcher prise ? Si vous êtes arrivé(e) sur ce site, peut-être est-ce parce que vous avez besoin de parler et d'être écouté
-    image: "/images/tictac/psychologie.svg"
-    width: 400
-    height: 400
     button:
-      label: Know About Us
+      label: En voir plus
       link: "#"
       enable: true
 

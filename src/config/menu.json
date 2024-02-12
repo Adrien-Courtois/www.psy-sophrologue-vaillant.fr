@@ -6,7 +6,7 @@
       },
       {
         "name": "À propos",
-        "url": "#"
+        "url": "/a-propos"
       },
       {
         "name": "Prestations",
@@ -14,29 +14,29 @@
         "hasChildren": true,
         "children": [
           {
-            "name": "Sophrologie",
-            "url": "#"
+            "name": "Psychologie",
+            "url": "/prestations#psychologie"
           },
           {
-            "name": "Psychologie",
-            "url": "#"
+            "name": "Sophrologie",
+            "url": "/prestations#sophrologie"
           }
         ]
       },
       {
         "name": "Tarifs",
-        "url": "#"
+        "url": "/tarifs"
       },
       {
         "name": "Contact",
-        "url": "contact"
+        "url": "/contact"
       }
     ],
 
     "cta": 
       {
         "name": "Contact",
-        "url": "#"
+        "url": "/contact"
       },
   
     "footer": [

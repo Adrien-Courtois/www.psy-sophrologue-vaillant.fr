@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from "@layouts/components/PageHeader.astro";
+// import Cta from "@layouts/partials/Cta.astro";
+---
+
+<Base title="404" noindex>
+	<!-- page header -->
+	<PageHeader header={
+        {
+            title: "404",
+            content: "Oups la page que vous souhaitez visiter n'est pas disponible, vous pouvez revenir à la page d'accueil",
+            buttons: [{
+                label: "accueil",
+                link: "/",
+                enable: true
+            }]
+        }
+    } />
+
+	<!-- call to action
+	<Cta /> -->
+</Base>
