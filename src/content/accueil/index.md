@@ -5,7 +5,7 @@ banner:
   title: "Sylvain Vaillant Psy & Sophrologue à Abbeville"
   content: "Trouvez votre bien-être avec Sylvain Vaillant sophrologue à Abbeville. Découvrez des séances personnalisées pour la gestion du stress, la relaxation et l'équilibre mental. Contactez-moi pour une harmonie intérieure."
   image: 
-    src: /images/banner/banner-img-1.svg
+    src: /images/banner/banner-img.svg
     width: 450
     height: 450
   enable: false
@@ -22,7 +22,7 @@ tictac:
     height: 400
     button:
       label: En voir plus
-      link: "#"
+      link: "/prestations#psychologie"
       enable: true
   - title: Explorez les Bienfaits de la Sophrologie
     description: "Bien plus qu'une technique de relaxation, la sophrologie consiste à acquérir une maîtrise de soi pour mobiliser nos ressources internes afin d'optimiser nos capacités : la confiance, la maîtrise et l'estime de soi. En séance individuelle ou collective, vous apprendrez à canaliser vos émotions, modifier vos pensées ou vos comportements invalidants afin de vous aider dans vos difficultés."
@@ -31,12 +31,15 @@ tictac:
     height: 400
     button:
       label: En voir plus
-      link: "#"
+      link: "/prestations#sophrologie"
       enable: true
 
 members:
   title: Sylvain Vaillant, diplômé en sophrologie
   description: Psy-sophrologue, diplômé en psychopathologie, psychologie clinique et formé à la Sophrologie, je vous reçois en consultation individuelle ou collective dans mon cabinet situé au 21, route de Paris à Abbeville ou au Centre de Soin de Feuquières-en-Vimeu.
+  button:
+      label: En voir plus
+      link: "/a-propos"
   member_list:
     - name: Sylvain Vaillant
       field: Psy-Sophrologue
@@ -46,16 +49,19 @@ features:
   title: Découvrez mes prestations en psy-sophrologie
   content:
     - title: Gestion du stress
-      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      text: Soulagez votre esprit ! Découvrez comment la sophrologie peut transformer votre gestion du stress, en vous offrant des techniques de relaxation profonde et de renforcement mental. 
       link: /prestations
     - title: Séance collective
-      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      text: Rencontrez, partagez, évoluez ! Profitez des avantages thérapeutiques combinés de la sophrologie et de la psychologie lors de stimulantes séances collectives, favorisant entraide et développement personnel. 
       link: /prestations
     - title: Pour les enfants
-      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      text: Un départ serein vers un bel avenir ! Explorez les innombrables bienfaits de la sophrologie et de la psychologie adaptées aux enfants, encourageant confiance, concentration et croissance équilibrée.
       link: /prestations
     - title: En entreprise
-      text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet rerum earum nam reiciendis suscipit quisquam nostrum explicabo temporibus deleniti esse dolores nisi praesentium excepturi consequatur eos.
+      text: Stimulez vos performances au travail ! Améliorez le bien-être global de votre entreprise avec des sessions de sophrologie et de psychologie ciblées, visant productivité accrue, communication fluide et climat positif.
+      link: /prestations
+    - title: Thérapie de couple
+      text: Ravivez l’harmonie dans votre relation ! Retrouvez complicité et compréhension mutuelle grâce à des thérapies de couples innovantes associant sophrologie et psychologie, pour fortifier votre lien affectif durablement.
       link: /prestations
 
 paragraph_sylvain: 

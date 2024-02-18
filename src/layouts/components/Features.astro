@@ -12,16 +12,19 @@ const first_title = title_arr.join(' ')
 <div class="container px-6 py-10 mx-auto">
     <h2 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">{first_title}<span class="text-primary"> {last_title}</span></h2>
 
-    <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
+    <div class="flex justify-center flex-wrap gap-8 mt-8 xl:mt-12 xl:gap-16">
 
         {
         content.map((item: any) => (
-        <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800">
-            <span class="inline-block p-3 text-primary bg-white rounded-full dark:text-white dark:bg-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                </svg>
-            </span>
+        <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl dark:bg-gray-800 flex-grow lg:basis-1/4">
+            <!--
+                <span class="inline-block p-3 text-primary bg-white rounded-full dark:text-white dark:bg-primary">
+            
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                    </svg>
+                </span>
+            -->
 
             <h3 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">{item.title}</h3>
 

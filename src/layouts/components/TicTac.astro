@@ -11,8 +11,8 @@ const { tictac_content } = Astro.props;
     <!-- <HomepageTab client:load homepage_tab={homepage_tab} /> -->
     {
       tictac_content.map((item: any, index: number) => (
-        <div class={`gx-5 row mt-12 items-center  ${index % 2 === 0 ? "lg:mt-0" : ""}`}>
-          <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
+        <div class={`gx-5 row mt-20 items-center  ${index % 2 === 0 ? "lg:mt-0" : ""}`}>
+          <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
               <div class="relative flex justify-center">
                 <Image
@@ -24,7 +24,7 @@ const { tictac_content } = Astro.props;
                 />
                 <Image
                   class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/tictac/shape-2.png"
+                  src="/images/tictac/shape-2.svg"
                   alt=""
                   height={147}
                   width={151}
@@ -45,11 +45,11 @@ const { tictac_content } = Astro.props;
             )}
           </div>
           <div
-            class={`mt-6 lg:col-5 lg:mt-0 ${
+            class={`mt-6 lg:col-7 lg:mt-0 ${
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
-            <div class="text-container">
+            <div class="lg:px-8">
               <h2 class="lg:text-4xl">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (

@@ -1,17 +1,21 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from "@layouts/components/PageHeader.astro";
+import Cta from "@layouts/partials/Cta.astro";
 // import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
+import OurMembers from "@layouts/components/OurMembers.astro";
+import TicTac from "@layouts/components/TicTac.astro";
 
 const content = await getEntryBySlug("a-propos", "index");
-const { header, title } = content.data;
+const { header, title, members, tictac, meta_desc } = content.data;
 ---
 
-<Base title={title}>
+<Base title={title} description={meta_desc}>
 	<!-- page header -->
 	<PageHeader header={header} />
-
-	<!-- call to action
-	<Cta /> -->
+	<TicTac tictac_content={tictac} />
+	<OurMembers members={members} />
+	<!-- call to action  -->
+	<Cta />
 </Base>

@@ -4,7 +4,7 @@ import PageHeader from "@layouts/components/PageHeader.astro";
 // import Cta from "@layouts/partials/Cta.astro";
 import { getEntryBySlug } from "astro:content";
 
-const content = await getEntryBySlug("a-propos", "index");
+const content = await getEntryBySlug("tarifs", "index");
 const { header, title } = content.data;
 ---
 

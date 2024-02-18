@@ -41,8 +41,24 @@
   
     "footer": [
       {
+        "name": "Accueil",
+        "url": "/"
+      },
+      {
         "name": "À propos",
         "url": "/a-propos"
+      },
+      {
+        "name": "Psychologie",
+        "url": "/prestations#psychologie"
+      },
+      {
+        "name": "Sophrologie",
+        "url": "/prestations#sophrologie"
+      },
+      {
+        "name": "Tarifs",
+        "url": "/tarifs"
       },
       {
         "name": "Contact",
