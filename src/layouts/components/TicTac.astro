@@ -11,7 +11,7 @@ const { tictac_content } = Astro.props;
     <!-- <HomepageTab client:load homepage_tab={homepage_tab} /> -->
     {
       tictac_content.map((item: any, index: number) => (
-        <div class={`gx-5 row mt-20 items-center  ${index % 2 === 0 ? "lg:mt-0" : ""}`}>
+        <div class={`gx-5 row items-center  ${index % 2 === 1 ? "mt-20" : ""}`}>
           <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
             {item.image && (
               <div class="relative flex justify-center">
