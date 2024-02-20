@@ -1,7 +1,7 @@
 ---
-title: "About"
-meta_desc: "Besoin de soutien en psychologie ou sophrologie ? Contactez Sylvain Vaillant dès aujourd'hui et explorez un monde de thérapies axées sur les neurosciences et l'humanisme. Redécouvrez votre potentiel !"
+title: "Contact"
+meta_desc: "Pour toute question ou prise de rendez-vous, contactez Sylvain Vaillant."
 header:
-  title: "About our company"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "Contactez Sylvain Vaillant"
+  content: "Prenez rendez-vous dès aujourd'hui."
 
