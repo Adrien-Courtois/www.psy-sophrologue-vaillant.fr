@@ -64,3 +64,4 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - [x] Vérifier les meta description (1 par page, vérifier le template base)
 - [x] Modifier le footer
 - [ ] Présentation de la page d'accueil
+- [ ] Add tag and id in tictac component
