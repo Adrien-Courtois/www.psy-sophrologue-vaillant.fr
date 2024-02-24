@@ -6,14 +6,14 @@ import { Image } from "astro:assets";
 const { tictac_content } = Astro.props;
 ---
 
-<section class="section services">
+<section class="section services py-12">
   <div class="container">
     <!-- <HomepageTab client:load homepage_tab={homepage_tab} /> -->
     {
       tictac_content.map((item: any, index: number) => (
-        <div class={`gx-5 row items-center  ${index % 2 === 1 ? "mt-20" : ""}`}>
-          <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
-            {item.image && (
+        <div class={`gx-5 row items-center py-12`}>
+          {item.image && (
+            <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
               <div class="relative flex justify-center">
                 <Image
                   class="max-w-full object-contain"
@@ -30,8 +30,10 @@ const { tictac_content } = Astro.props;
                   width={151}
                 />
               </div>
-            )}
-            {item.video && (
+            </div>
+          )}
+          {item.video && (
+            <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
               <VideoComponent
                 client:load
                 src={item.video.thumbnail}
@@ -42,14 +44,14 @@ const { tictac_content } = Astro.props;
                 video_width="w-[700px]"
                 video_height="h-[370px]"
               />
-            )}
-          </div>
+            </div>
+          )}
           <div
-            class={`mt-6 lg:col-7 lg:mt-0 ${
+            class={`mt-6 lg:mt-0 ${
               index % 2 === 0 ? "order-1" : "order-0"
-            }`}
+            } ${item.image || item.video ? "lg:col-7" : ""}`}
           >
-            <div class="lg:px-8">
+            <div class={`lg:px-8 ${item.image || item.video ? "" : "text-center"}`}>
               <h2 class="lg:text-4xl">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (
