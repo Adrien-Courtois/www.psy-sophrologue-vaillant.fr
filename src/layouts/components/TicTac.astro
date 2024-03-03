@@ -11,7 +11,7 @@ const { tictac_content } = Astro.props;
     <!-- <HomepageTab client:load homepage_tab={homepage_tab} /> -->
     {
       tictac_content.map((item: any, index: number) => (
-        <div class={`gx-5 row items-center py-12`}>
+        <div id={item.id} class={`gx-5 row items-center ${item.title ? "py-12" : "pt-0 pb-12"}`}>
           {item.image && (
             <div class={`lg:col-5 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
               <div class="relative flex justify-center">
@@ -51,18 +51,25 @@ const { tictac_content } = Astro.props;
               index % 2 === 0 ? "order-1" : "order-0"
             } ${item.image || item.video ? "lg:col-7" : ""}`}
           >
-            <div class={`lg:px-8 ${item.image || item.video ? "" : "text-center"}`}>
-              <h2 class="lg:text-4xl">{item.title}</h2>
-              <p class="mt-4">{item.description}</p>
+            <div class="lg:px-8">
+              {
+                (item.tag == "h3" && (<h3 class={`lg:text-3xl text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.title}</h3>))
+                || (item.tag == "h4" && (<h4 class={`lg:text-2xl text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.title}</h4>))
+                || (item.tag == "h5" && (<h5 class={`lg:text-xl text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.title}</h5>))
+                || (item.tag == "h6" && (<h6 class={`lg:text-lg text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.title}</h6>))
+                || (item.title && <h2 class={`lg:text-4xl text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.title}</h2>)
+            
+              }
+              <p class={`mt-4 text-center ${item.image || item.video ? "lg:text-left" : ""}`}>{item.description}</p>
               {item.button && item.button.enable && (
                 <a class="btn btn-white mt-6" href={item.button.link}>
                   {item.button.label}
                 </a>
               )}
-              <ul class="mt-6 text-dark lg:-ml-4">
+              <ul class="mt-6 row text-dark lg:-ml-4">
                 {item.list &&
                   item.list.map((list: any) => (
-                    <li class="mb-2 flex items-center rounded px-4">
+                    <li class="mb-2 sm:col-6 flex items-center rounded px-4">
                       <AiFillCheckCircle className="mr-3 fill-primary text-white" />
                       {list}
                     </li>
