@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from "@layouts/components/PageHeader.astro";
+// import Cta from "@layouts/partials/Cta.astro";
+---
+
+<Base title="Erreur" noindex>
+	<!-- page header -->
+	<PageHeader header={
+        {
+            title: "Erreur",
+            content: "Votre soumission au formulaire n'a pas été envoyée, peut-être êtes-vous un robot.",
+            buttons: [{
+                label: "accueil",
+                link: "/",
+                enable: true
+            }]
+        }
+    } />
+
+	<!-- call to action
+	<Cta /> -->
+</Base>

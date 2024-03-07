@@ -54,14 +54,4 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 ## To-do
-- [x] schema.org
-- [x] Pourquoi moi ? : https://flowbite.com/blocks/marketing/content/#social-proof-content
-- [x] Régler les soucis SEO (balise hn etc...)
-- [x] Optimiser les images pour SEO et performance
-- [x] Créer un logo
-- [x] Mettre du contenu
-- [x] Trouver des images
-- [x] Vérifier les meta description (1 par page, vérifier le template base)
-- [x] Modifier le footer
-- [ ] Présentation de la page d'accueil
-- [ ] Add tag and id in tictac component
+- [ ] contact form sur netlify avec un post dirigé dessus https://docs.netlify.com/integrations/frameworks/express/

@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from "@layouts/components/PageHeader.astro";
+// import Cta from "@layouts/partials/Cta.astro";
+---
+
+<Base title="Succès" noindex>
+	<!-- page header -->
+	<PageHeader header={
+        {
+            title: "Succès",
+            content: "Votre soumission au formulaire a bien été enregistrée et envoyée, nous revenons vers vous au plus vite.",
+            buttons: [{
+                label: "accueil",
+                link: "/",
+                enable: true
+            }]
+        }
+    } />
+
+	<!-- call to action
+	<Cta /> -->
+</Base>

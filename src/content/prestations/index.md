@@ -1,6 +1,6 @@
 ---
 title: "Sophrologue Abbeville - Cabinet Sophrologie & Relaxation"
-meta_desc: "Pour toute question ou prise de rendez-vous, contactez Sylvain Vaillant."
+meta_desc: "Sylvain Vaillant vous reçoit sur RDV dans son cabinet à Abbeville. Séances de sophrologie individuelles ou collectives. Accompagnement Stress, Phobie, Dépression, TCA..."
 
 header:
   title: "Sophrologue Abbeville - Cabinet Sophrologie & Relaxation"
@@ -27,12 +27,12 @@ tictac:
       - Confiance en soi
       - Difficultés professionnelles
       - etc.
-    image: "/images/tictac/psychologie.svg"
+    image: "/images/presta/questions.svg"
     width: 400
     height: 400
   - title: Déroulement du premier rendez-vous
     tag: h3
-    image: "/images/tictac/psychologie.svg"
+    image: "/images/presta/rdv.svg"
     width: 400
     height: 400
     description: "Dans le but de vous proposer une prise en charge adaptée, le premier rendez-vous consistera en une rencontre et une prise de connaissance entre vous et moi qui permettra de poser les bases d'une relation de confiance mutuelle. Ce premier contact vous permet d’exprimer les difficultés auxquelles vous êtes confronté, d’évoquer vos craintes éventuelles et de poser toutes les questions nécessaires."
@@ -42,7 +42,7 @@ tictac:
     description: "La Sophrologie est bien plus qu'une technique de relaxation. Elle est un apprentissage afin de mieux connaître nos besoins, nos fonctionnements. Son but consiste à acquérir une maîtrise de soi pour mobiliser nos ressources internes afin d'optimiser nos capacités : la confiance, la maîtrise et l'estime de soi"
   - title: La sophrologie, pour quoi, pour qui ?
     tag: h3
-    image: "/images/tictac/psychologie.svg"
+    image: "/images/presta/sophrologie.svg"
     width: 400
     height: 400
     description: "Etymologiquement, la sophrologie est la science de l'harmonie de l'esprit. L'esprit en sophrologie est définie comme étant la force qui nous permet de capter des informations venant de l'environnement extérieur et intérieur par le biais de nos cinq sens. Nous corporalisons et intégrons des sensations et émotions positives ou négatives. La sophrologie est la rencontre des techniques orientales (Yoga Indien, Bouddhisme Tibétain et Zazen Japonais) couplées à des recherches scientifiques occidentales modernes : les neurosciences (comme l'hypnose clinique) et la phénoménologie. Alfonso Caycedo constate l’importance d’une méditation centrée sur le corps, dans le ici et le maintenant. C’est ainsi qu’il mettra en place les trois premiers degrés de la « relaxation dynamique » de la sophrologie."
@@ -71,7 +71,7 @@ tictac:
       - Accompagnement au licenciement
       - Développer la concentration
       - Développer la créativité
-    image: "/images/tictac/psychologie.svg"
+    image: "/images/presta/demenagement.svg"
     width: 400
     height: 400
   - title: Sophrologie en séance individuelle
@@ -80,15 +80,12 @@ tictac:
   - title: Déroulement de la séance
     tag: h4
     description: "Lors de la première séance, nous prendrons le temps de faire connaissance puis je vous expliquerai ce qu'est la sophrologie et ce qu'elle peut vous apporter. Un premier exercice sur la respiration sera effectué. Lors des séances suivantes, je vous présente l'exercice et vous montre les mouvements à réaliser si besoin tout en répondant à vos questions. Ensuite, assis, debout ou allongé,  nous pouvons démarrer la séance par de la relaxation, un relâchement musculaire de chaque partie corporelle. Cette détente musculaire entraîne une détente mentale. Il nous suffira de nous laissé guider par ma voix. Puis nous ferons un exercice spécifique avant d'entamer un retour au tonus musculaire habituel. La séance se termine par un temps de parole ou j'accueille vos ressentis et vos émotions sans jugement ni interprétation." 
-    image: "/images/tictac/psychologie.svg"
-    width: 400
-    height: 400
+    image: "/images/presta/deroulements.svg"
+    width: 300
+    height: 300
   - title: Sophrologie en séance de groupe
     tag: h3
     description: "La sophrologie se pratique également en cours ou ateliers collectifs. Sophrologue à Abbeville, je vous reçois en toute bienveillance dans mon cabinet situé au 21, route de Paris ou au centre de soin de Feuquières-en-Vimeu pour des séances collectives. Pratiquée en petits groupes, la sophrologie collective est avant tout un moment de relaxation avec une thématique propre à chaque séance. Elle s'adresse à tous, quels que soient vos besoins."
-    image: "/images/tictac/psychologie.svg"
+    image: "/images/presta/groupe.svg"
     width: 400
     height: 400
-  - title: Déroulement de la séance
-    tag: h4
-    description: "Lors de la première séance, je vous explique ce qu'est la sophrologie, ses origines, son histoire, le déroulement d'une séance, la relaxation et ce qu'elle peut vous apporter. Un premier exercice sur la respiration sera effectué. Lors des séances suivantes, je vous présente l'exercice et vous montre les mouvements à réaliser si besoin tout en répondant à vos questions. Ensuite, assis, debout ou allongé,  nous pouvons démarrer la séance par de la relaxation, un relâchement musculaire de chaque partie corporelle. Cette détente musculaire entraîne une détente mentale. Il nous suffira de nous laissé guider par ma voix. Puis nous ferons un exercice spécifique avant d'entamer un retour au tonus musculaire habituel.Enfin, nous prendrons un temps afin d'échanger sur la séance, sur vos ressentis et ce qui a été vécu. Lors de ce moment de partage, chacun est libre de s'exprimer ou non, sans jugement et en toute sécurité car ce qui est dit lors de la séance reste dans la séance."

@@ -1,9 +1,9 @@
 ---
-title: "About"
-meta_desc: "Pour toute question ou prise de rendez-vous, contactez Sylvain Vaillant."
+title: "Tarifs Psychothérapeute S. Vaillant à Feuquières-en-Vimeu & Abbeville"
+meta_desc: "Consultez les tarifs de votre psy-sophrologue Sylvain Vaillant à Abbeville et Feuquières-en-Vimeu. Consultations individuelles et collectives."
 
 header:
-  title: "About our company"
+  title: "Tarifs de Sylvain Vaillant"
   content: "Consultation à domicile possible pour les personnes en situation de handicap ou ayant des difficultés à se déplacer. Le paiement se fait à la consultation par chèque ou espèces. Possibilité d'offrir une séance découverte sous forme de carte cadeau"
 
 tictac_1:
