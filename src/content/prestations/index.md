@@ -1,5 +1,6 @@
 ---
 title: "Sophrologue Abbeville - Cabinet Sophrologie & Relaxation"
+meta_desc: "Pour toute question ou prise de rendez-vous, contactez Sylvain Vaillant."
 
 header:
   title: "Sophrologue Abbeville - Cabinet Sophrologie & Relaxation"
@@ -61,10 +62,15 @@ tictac:
       - Gestion de la douleur
       - Confiance en soi, estime de soi
       - Maitrise des émotions
-      - Préparation à un entretien/ examen/ concours/ compétition
+      - Préparation d'un entretien
+      - Prépartion d'un examen
+      - Prépartion d'un concours
+      - Prépartion d'une compétition
       - Préparation à l'accouchement
-      - Accompagnement à une séparation/ deuil/ déménagement/ licenciement
-      - Développer la concentration, la créativité
+      - Accompagnement au déménagement
+      - Accompagnement au licenciement
+      - Développer la concentration
+      - Développer la créativité
     image: "/images/tictac/psychologie.svg"
     width: 400
     height: 400
@@ -74,9 +80,15 @@ tictac:
   - title: Déroulement de la séance
     tag: h4
     description: "Lors de la première séance, nous prendrons le temps de faire connaissance puis je vous expliquerai ce qu'est la sophrologie et ce qu'elle peut vous apporter. Un premier exercice sur la respiration sera effectué. Lors des séances suivantes, je vous présente l'exercice et vous montre les mouvements à réaliser si besoin tout en répondant à vos questions. Ensuite, assis, debout ou allongé,  nous pouvons démarrer la séance par de la relaxation, un relâchement musculaire de chaque partie corporelle. Cette détente musculaire entraîne une détente mentale. Il nous suffira de nous laissé guider par ma voix. Puis nous ferons un exercice spécifique avant d'entamer un retour au tonus musculaire habituel. La séance se termine par un temps de parole ou j'accueille vos ressentis et vos émotions sans jugement ni interprétation." 
+    image: "/images/tictac/psychologie.svg"
+    width: 400
+    height: 400
   - title: Sophrologie en séance de groupe
     tag: h3
     description: "La sophrologie se pratique également en cours ou ateliers collectifs. Sophrologue à Abbeville, je vous reçois en toute bienveillance dans mon cabinet situé au 21, route de Paris ou au centre de soin de Feuquières-en-Vimeu pour des séances collectives. Pratiquée en petits groupes, la sophrologie collective est avant tout un moment de relaxation avec une thématique propre à chaque séance. Elle s'adresse à tous, quels que soient vos besoins."
+    image: "/images/tictac/psychologie.svg"
+    width: 400
+    height: 400
   - title: Déroulement de la séance
     tag: h4
     description: "Lors de la première séance, je vous explique ce qu'est la sophrologie, ses origines, son histoire, le déroulement d'une séance, la relaxation et ce qu'elle peut vous apporter. Un premier exercice sur la respiration sera effectué. Lors des séances suivantes, je vous présente l'exercice et vous montre les mouvements à réaliser si besoin tout en répondant à vos questions. Ensuite, assis, debout ou allongé,  nous pouvons démarrer la séance par de la relaxation, un relâchement musculaire de chaque partie corporelle. Cette détente musculaire entraîne une détente mentale. Il nous suffira de nous laissé guider par ma voix. Puis nous ferons un exercice spécifique avant d'entamer un retour au tonus musculaire habituel.Enfin, nous prendrons un temps afin d'échanger sur la séance, sur vos ressentis et ce qui a été vécu. Lors de ce moment de partage, chacun est libre de s'exprimer ou non, sans jugement et en toute sécurité car ce qui est dit lors de la séance reste dans la séance."

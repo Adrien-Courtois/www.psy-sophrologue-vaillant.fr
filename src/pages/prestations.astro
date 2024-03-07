@@ -6,10 +6,10 @@ import TicTac from "@layouts/components/TicTac.astro";
 import { getEntryBySlug } from "astro:content";
 
 const content = await getEntryBySlug("prestations", "index");
-const { header, title, tictac } = content.data;
+const { header, title, tictac, meta_desc } = content.data;
 ---
 
-<Base title={title}>
+<Base title={title} description={meta_desc}>
 	<!-- page header -->
 	<PageHeader header={header} />
 	<TicTac tictac_content={tictac} />

@@ -4,9 +4,10 @@ import VideoComponent from "@layouts/function-components/VideoComponent";
 import { AiFillCheckCircle } from "react-icons/ai/index.js";
 import { Image } from "astro:assets";
 const { tictac_content } = Astro.props;
+const { no_section } = Astro.props;
 ---
 
-<section class="section services py-12">
+<section class={`${no_section ? "" : "section services py-12"}`}>
   <div class="container">
     <!-- <HomepageTab client:load homepage_tab={homepage_tab} /> -->
     {
@@ -66,11 +67,11 @@ const { tictac_content } = Astro.props;
                   {item.button.label}
                 </a>
               )}
-              <ul class="mt-6 row text-dark lg:-ml-4">
+              <ul class="mt-6 row text-dark lg:-ml-4 h-fit">
                 {item.list &&
                   item.list.map((list: any) => (
                     <li class="mb-2 sm:col-6 flex items-center rounded px-4 h-fit">
-                      <AiFillCheckCircle className="mr-3 fill-primary text-white" />
+                      <AiFillCheckCircle className="mr-3 fill-primary text-white flex-shrink-0" />
                       {list}
                     </li>
                   ))}

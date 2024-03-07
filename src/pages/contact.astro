@@ -9,6 +9,8 @@ import config from "@config/config.json";
 const content = await getEntryBySlug("contact", "index");
 const { header, title, meta_desc } = content.data;
 const { contact_form_action } = config.params;
+
+
 ---
 
 <Base title={title} description={meta_desc}>

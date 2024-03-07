@@ -1,17 +1,45 @@
 ---
 import Base from '../layouts/Base.astro';
+import Shape from "@components/Shape.astro";
+import TicTac from "@layouts/components/TicTac.astro";
 import PageHeader from "@layouts/components/PageHeader.astro";
-// import Cta from "@layouts/partials/Cta.astro";
+import PricingCard from "@layouts/function-components/PricingCard.jsx";
 import { getEntryBySlug } from "astro:content";
 
 const content = await getEntryBySlug("tarifs", "index");
-const { header, title } = content.data;
+const { header, title, meta_desc, pricing_cards_soph, pricing_cards_psy, tictac_1, tictac_2 } = content.data;
 ---
 
-<Base title={title}>
+<Base title={title} description={meta_desc}>
 	<!-- page header -->
 	<PageHeader header={header} />
+	<Shape />
+  <!-- pricing -->
+  <section class="section">
+	<TicTac tictac_content={tictac_1} no_section />
+    <div class="container">
+      <div class="flex justify-center flex-wrap lg:px-10">
+        {
+          pricing_cards_psy.map((item: any, i: number) => (
+            <PricingCard item={item} client:load />
+          ))
+        }
+      </div>
+    </div>
+  </section>
 
+  <section class="section">
+	<TicTac tictac_content={tictac_2} no_section/>
+    <div class="container">
+      <div class="flex justify-center flex-wrap lg:px-10">
+        {
+          pricing_cards_soph.map((item: any, i: number) => (
+            <PricingCard item={item} client:load />
+          ))
+        }
+      </div>
+    </div>
+  </section>
 	<!-- call to action
 	<Cta /> -->
 </Base>
