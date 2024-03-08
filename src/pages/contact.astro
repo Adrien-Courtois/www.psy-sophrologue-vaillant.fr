@@ -43,23 +43,26 @@ const { contact_form_action } = config.params;
 				method="POST"
 			  >
 				<div class="form-group mb-5">
-				  <label class="form-label" for="name">Nom prénom</label>
+				  <label class="form-label" for="name">Nom prénom*</label>
 				  <input
 					class="form-control"
 					type="text"
 					id="name"
 					name="name"
+					pattern="^[a-zA-Z_0-9]+[a-zA-Z_0-9 ]*$"
 					placeholder="Votre nom et prénom"
+					required
 				  />
 				</div>
 				<div class="form-group mb-5">
-				  <label class="form-label" for="email">Adresse mail</label>
+				  <label class="form-label" for="email">Adresse mail*</label>
 				  <input
 					class="form-control"
-					type="text"
+					type="email"
 					id="email"
 					name="email"
 					placeholder="Votre adresse mail"
+					required
 				  />
 				  <input
 					class="form-control"
