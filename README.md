@@ -54,4 +54,5 @@ All commands are run from the root of the project, from a terminal:
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
 ## To-do
-- [ ] contact form sur netlify avec un post dirigé dessus https://docs.netlify.com/integrations/frameworks/express/
+- [ ] Supprimé le no index dans la config général
+- [ ] activer la search console (enregistrement DNS)
