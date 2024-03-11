@@ -26,7 +26,7 @@
         "21, route de Paris, 80100 Abbeville",
         "34 rue Henry Barbusse, 80210 Feuquières en Vimeu"
       ],
-      "contact_form_action": "http://localhost:3000/svc",
+      "contact_form_action": "#",
       "copyright": "Copyright © 2024 site créé par A-DEV | [mentions légales](/mentions-legales) | [cgu](/cgu)"
     },
   
