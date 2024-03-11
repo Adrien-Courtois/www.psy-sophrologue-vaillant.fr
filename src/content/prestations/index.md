@@ -67,7 +67,6 @@ tictac:
       - Prépartion d'un concours
       - Prépartion d'une compétition
       - Préparation à l'accouchement
-      - Accompagnement au déménagement
       - Accompagnement au licenciement
       - Développer la concentration
       - Développer la créativité
