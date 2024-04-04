@@ -14,6 +14,8 @@ tictac:
     tag: h3
     description: "Voici quelques exemples de motifs de consultation :"
     list:
+      - Angoisse
+      - Burnout
       - Stress
       - Anxiété
       - Phobies
@@ -63,9 +65,9 @@ tictac:
       - Confiance en soi, estime de soi
       - Maitrise des émotions
       - Préparation d'un entretien
-      - Prépartion d'un examen
-      - Prépartion d'un concours
-      - Prépartion d'une compétition
+      - Préparation d'un examen
+      - Préparation d'un concours
+      - Préparation d'une compétition
       - Préparation à l'accouchement
       - Accompagnement au licenciement
       - Développer la concentration
